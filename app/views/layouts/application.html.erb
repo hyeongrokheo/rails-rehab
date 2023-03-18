@@ -11,6 +11,12 @@
   </head>
 
   <body>
+    <%= link_to "글 목록 보기", posts_path %>
+
+    <%= link_to "글쓰기", new_post_path %>
+
+    <hr>
+
     <%= yield %>
   </body>
 </html>

@@ -1,0 +1,24 @@
+
+<%= form_for @post do |f| %>
+  <table>
+    <tr>
+      <td>제목</td>
+      <td><%= f.text_field :title %></td>
+    </tr>
+    <tr>
+      <td>내용</td>
+      <td><%= f.text_area :content, cols: 30, rows: 10 %></td>
+    </tr>
+    <tr>
+      <td>작성자</td>
+      <td><%= f.text_field :author %></td>
+    </tr>
+    <tr>
+      <td>비밀번호</td>
+      <td><%= f.password_field :password %></td>
+    </tr>
+  </table>
+  <%= f.submit "작성하기" %>
+<% end %>
+
+<hr>
