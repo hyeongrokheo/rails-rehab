@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 프로젝트의 목적
+- 손에 익은 레거시 떨쳐내기
+- 새로운 프로젝트를 처음부터 만들어보며 감 되찾기
 
-Things you may want to cover:
+## 프로젝트 개요
+- 간단한 익명 게시판 만들기
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 기타
+- 추후에 동일한 기능을 하는 프로젝트를 장고로도 구현해보기
