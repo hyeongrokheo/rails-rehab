@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   # root "articles#index"
   get '/', to: 'posts#index'
   resources :posts, only: %w[index new show create]
+  resources :memos, only: %w[index new show create], param: :key
 end

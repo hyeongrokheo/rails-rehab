@@ -1,0 +1,20 @@
+
+<%= form_tag new_memo_path method: :post do %>
+  <table>
+    <tr>
+      <td>키값</td>
+      <td><%= text_field_tag :key %></td>
+    </tr>
+    <tr>
+      <td>내용</td>
+      <td><%= text_area_tag :content, nil, cols: 30, rows: 10 %></td>
+    </tr>
+    <tr>
+      <td>유효기간 (분 단위. 미입력시 5분)</td>
+      <td><%= number_field_tag :exp_period, min: 1, max: 60, step: 1 %></td>
+    </tr>
+  </table>
+  <%= submit_tag "작성하기" %>
+<% end %>
+
+<hr>

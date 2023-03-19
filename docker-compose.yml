@@ -5,6 +5,8 @@ services:
     container_name: rails-webapp
     ports:
       - '3000:3000'
+    volumes:
+      - .:/app
     environment:
       REDIS_URL: redis://redis:6379/0
     depends_on:

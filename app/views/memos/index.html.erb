@@ -1,0 +1,5 @@
+
+<% @keys.each do |key| %>
+  <h2><%= link_to key, url_for(controller: 'memos', action: 'show', key: key) %></h2>
+  <hr>
+<% end %>
